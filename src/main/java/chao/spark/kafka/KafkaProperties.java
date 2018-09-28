@@ -7,9 +7,11 @@ package chao.spark.kafka;
  */
 public class KafkaProperties {
 
-    public static final String ZK = "192.168.27.163:2181";
+    public static final String ZK = "chao1:2181";
 
     public static final String TOPIC = "hello_topic";
 
-    public static final String BROKER_LIST = "192.168.27.163:9092";
+    public static final String BROKER_LIST = "chao1:9092";
+
+    public static final String GROUP_ID = "test_group1";
 }
